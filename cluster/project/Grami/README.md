@@ -23,7 +23,7 @@ Java JRE v1.6.0 or later
 INSTALLATION:
 =====
     - GraMi scpirt has 4 input parameters:
-        - inputfile
+        - input file
         - frequency threshold for subnetwork
         - number of nodes in subnetwork, used to restrict the search space
         - number of edges in subnetwork, used to restrict the search space
