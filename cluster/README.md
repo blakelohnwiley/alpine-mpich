@@ -1,7 +1,7 @@
 Alpine MPICH Cluster
 ====================
 
-Scaffolding project structure for a MPI cluster using [Alpine MPICH](https://hub.docker.com/r/nlknguyen/alpine-mpich) Docker image. Architecturally compatible with *Docker Swarm Mode*. Include a runner script that automates Docker commands.
+Scaffolding project structure for a MPI cluster using a modified[Alpine MPICH](https://hub.docker.com/r/nlknguyen/alpine-mpich) Docker image found in this repo. Architecturally compatible with *Docker Swarm Mode*. Include a runner script that automates Docker commands.
 
 Original software targets:
 - Docker Engine version 1.12.1
