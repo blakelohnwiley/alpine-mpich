@@ -16,39 +16,46 @@ Currently, this directory provides two ways to orchestrate the cluster (with dif
 
 Require **Docker Compose**; target version 1.8.0
 
-Documentation: [wiki](https://github.com/NLKNguyen/alpine-mpich/wiki/Single-Host-Orchestration)
+Documentation: [wiki](https://github.com/blakelohnwiley/alpine-mpich/wiki/Single-Host-Orchestration)
 
 Relevant files:
 
 ```
 cluster
-├── Dockerfile          # Image specification
-├── project             # Sample program source code
-│   └── mpi_hello_world.c
-├── ssh                 # keys for accessing
-│   ├── id_rsa          # (could generate your own)
-│   └── id_rsa.pub
-├── .env                # General configuration
-├── docker-compose.yml  # Container orchestration 
-└── cluster.sh          # Commands wrapper ultility
-```
-
-# For multi-host with Docker Swarm Mode
-
-Require being on a **Docker Swarm** manager (could be a single local machine) and having access to an image registry (could use Docker Hub) 
-
-Documentation: [wiki](https://github.com/NLKNguyen/alpine-mpich/wiki/Multi-Host-Orchestration)
-
-Relevant files:
-
-```
-cluster
-├── Dockerfile          # Image specification
-├── project             # Sample program source code
-│   └── mpi_hello_world.c
-├── ssh                 # keys for accessing
-│   ├── id_rsa          # (could generate your own)
-│   └── id_rsa.pub
-└── swarm.sh            # Commands wrapper ultility
-
+├── Dockerfile
+├── README.md
+├── cluster.sh
+├── docker-compose.yml
+├── project
+│   ├── DistGraph
+│   │   ├── Makefile
+│   │   ├── README.md
+│   │   ├── make
+│   │   ├── scripts
+│   │   ├── src
+│   │   └── testdata
+│   ├── Extract-Transform-Load-Cytoscape
+│   │   └── ETL-Cytoscape.jar
+│   ├── Grami
+│   │   ├── GRAMI_UNDIRECTED_SUBGRAPHS.jar
+│   │   ├── Grami-Use-Test-Case.sh
+│   │   ├── README.md
+│   │   ├── brachypodium-correlation-cutoff-0.98-parsed.lg
+│   │   └── otu_table_ITS_Soil_Fungi-cleaned-sorenson-0.760000.lg
+│   ├── Gspan
+│   │   ├── Gspan-Use-Test-Case.sh
+│   │   ├── README.md
+│   │   ├── brachypodium-correlation-cutoff-0.98-parsed.lg
+│   │   ├── otu_table_ITS_Soil_Fungi-cleaned-sorenson-0.760000.lg
+│   │   └── parsemis.jar
+│   ├── ScaleMine
+│   │   ├── Datasets
+│   │   ├── LICENCE.txt
+│   │   ├── README.md
+│   │   ├── compile.sh
+│   │   └── src
+├── ssh
+│   ├── id_rsa
+│   └── id_rsa.pub
+└── swarm.sh
 ```
