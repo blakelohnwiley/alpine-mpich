@@ -33,9 +33,3 @@ EXAMPLES:
     - ./gSpan.sh brachypodium-correlation-cutoff-0.98-parsed.lg 1 3 3 #mines brachypodium dataset for subetworks with frequncy of one with 3 nodes and 3 edges. 
     - ./gSpan.sh otu_table_ITS_Soil_Fungi-cleaned-sorenson-0.760000.lg 1 3 3 #mines brachypodium dataset for subetworks with frequncy of one with 3 nodes and 3 edges.
 
- 
-Contributors
-=====
-
-    @Ehab-abdelhamid
-    @ElSeidy
