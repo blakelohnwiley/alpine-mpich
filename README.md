@@ -4,19 +4,8 @@ Docker image of Alpine Linux with  [MPICH](http://www.mpich.org/) -- portable im
 
 Provide solution for MPI Cluster Automation with Docker containers using either Docker Compose or Docker Swarm Mode.
 
-----
 
-        Best Paper Award at IEEE CCWC 2017
-
-**N. Nguyen** and **D. Bein**, "[Distributed MPI cluster with Docker Swarm mode](http://ieeexplore.ieee.org/document/7868429/)," 2017 IEEE 7th Annual Computing and Communication Workshop and Conference (CCWC), Las Vegas, NV, USA, 2017, pp. 1-7.
-
-----
-
-Image usage instruction: 
-[https://hub.docker.com/r/nlknguyen/alpine-mpich](https://hub.docker.com/r/nlknguyen/alpine-mpich)
-
-
-Distributed MPI cluster setup instruction: [https://github.com/NLKNguyen/alpine-mpich/tree/master/cluster](https://github.com/NLKNguyen/alpine-mpich/tree/master/cluster)  
+Distributed MPI cluster setup instruction: [https://github.com/blakelohnwiley/alpine-mpich/tree/master/cluster](https://github.com/blakelohnwiley/alpine-mpich/tree/master/cluster)  
 * **[Single Host Orchestration](https://github.com/blakelohnwiley/alpine-mpich/wiki/Single-Host-Orchestration)**
 
 
