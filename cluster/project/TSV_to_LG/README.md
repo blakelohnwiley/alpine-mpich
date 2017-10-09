@@ -22,16 +22,16 @@ Subnetwork Mining algorithms: Gspan, Grami, ScaleMine, and DistGraph.
 
 ##Running: ETL-Cytoscape.jar
 ```
-java -jar ETL-Cytoscape.jar input_dir input_filename
+- java -jar ETL-Cytoscape.jar input_dir input_filename
 
 
-input_dir : input directory for input file.
-input_filename : the input tsv file
+-input_dir : input directory for input file.
+-input_filename : the input tsv file
 ```
 
 ##Example:
 ```
-java -jar ETL-Cytoscape.jar $PWD/ brachypodium-correlation-cutoff-0.98-parsed.tsv
+-java -jar ETL-Cytoscape.jar $PWD/ brachypodium-correlation-cutoff-0.98-parsed.tsv
 ```
 
 ##Output:
