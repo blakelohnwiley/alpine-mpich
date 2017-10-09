@@ -1,4 +1,4 @@
-GraMi
+Grami
 =====
 
 GraMi is a novel framework for frequent subgraph mining in a single large  graph, GraMi outperforms existing techniques by 2 orders of magnitudes. GraMi  supports finding frequent subgraphs as well as frequent patterns, Compared to subgraphs, patterns offer a more powerful version of matching that captures  transitive interactions between graph nodes (like friend of a friend) which are very common in modern applications. Also, GraMi supports user-defined  structural and semantic constraints over the results, as well as approximate results.
@@ -8,12 +8,11 @@ For more details, check our paper: Mohammed Elseidy, Ehab Abdelhamid, Spiros Ski
 CONTENTS:
 =====
 
-    README ...................  This file
-    LICENSE.txt ..............  License file (Open Source)
-    build ....................  build GraMi java binary files
-    grami ....................  script to run GraMi
-    Datasets/ ................  Example graphs
-    GRAMI_*/ .................  Directory containing GraMi sources
+    README ...................................................      This file
+    GRAMI_UNDIRECTED_SUBGRAPHS.jar............................      Jar complied version of Grami
+    grami ....................................................      script to run GraMi
+    brachypodium-correlation-cutoff-0.98-parsed.lg............      brachypodium label graph dataset
+    otu_table_ITS_Soil_Fungi-cleaned-sorenson-0.760000.lg.....      otu_table_ITS_Soil_Fungi dataset
 
 
 REQUIREMENTS:
@@ -23,26 +22,20 @@ Java JRE v1.6.0 or later
 
 INSTALLATION:
 =====
-
-    - Uncompress grami using any compression tool
-    - Build Java binaries using the "build" script file
-    - Run GraMi using "grami" script
+    - GraMi scpirt has 4 input parameters:
+        - inputfile
+        - frequency threshold for subnetwork
+        - number of nodes in subnetwork, used to restrict the search space
+        - number of edges in subnetwork, used to restrict the search space
 
 EXAMPLES:
 =====
+    - ./Grami.sh brachypodium-correlation-cutoff-0.98-parsed.lg 1 3 3 #mines brachypodium dataset for subetworks with frequncy of one with 3 nodes and 3 edges. 
+    - ./Grami.sh otu_table_ITS_Soil_Fungi-cleaned-sorenson-0.760000.lg 1 3 3 #mines brachypodium dataset for subetworks with frequncy of one with 3 nodes and 3 edges.
 
-    1- Show GraMi breif help: "./grami -h"
-    2- Find frequent subgraphs in the "mico" undirected graph, with minimum frequency = 14000: "./grami -f mico.lg -s 14000 -t 0 -p 0"
-    3- Find frequent subgraphs in the "mico" undirected graph, with minimum frequency = 14000 and approximation: "./grami -f mico.lg -s 9340 -t 0 -p 0 -approxA 0.0002 -approxB=0"
-    4- Find frequent patterns in the "citeseer" directed graph, with minimum frequency = 160 and maximum distance bound (edge weight) = 200: "./grami -f citeseer.lg -s 160 -t 1 -p 1 -d 200"
-
+ 
 Contributors
 =====
 
     @Ehab-abdelhamid
     @ElSeidy
-
-
-Grami On Amazon AWS    
-=====
-http://cloud.kaust.edu.sa/Pages/Grami.aspx
