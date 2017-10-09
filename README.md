@@ -37,7 +37,5 @@ $ docker build -t alpine-linux-3-4-on-build onbuild/
 $ docker build -t cluster cluster/
 ```
 
-Since the onbuild image inherits the base image, if you use a different tag name (`nlknguyen/alpine-mpich`), you must change the first line in `onbuild/Dockerfile` to inherits `FROM` your custom tag name.
-
 # License MIT
 Copyright © Nikyle Nguyen
