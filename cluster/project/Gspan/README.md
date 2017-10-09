@@ -8,11 +8,11 @@ For more details, check our paper: Mohammed Elseidy, Ehab Abdelhamid, Spiros Ski
 CONTENTS:
 =====
 
-    README ...................................................          This file
-    GRAMI_UNDIRECTED_SUBGRAPHS.jar............................          Jar complied version of Grami
-    grami ....................................................          script to run GraMi
-    brachypodium-correlation-cutoff-0.98-parsed.lg............          brachypodium label graph labeled graph dataset
-    otu_table_ITS_Soil_Fungi-cleaned-sorenson-0.760000.lg.....          otu_table_ITS_Soil_Fungi labeled graph dataset
+    README ...................................................      This file
+    GRAMI_UNDIRECTED_SUBGRAPHS.jar............................      Jar complied version of Grami
+    grami ....................................................      script to run GraMi
+    brachypodium-correlation-cutoff-0.98-parsed.lg............      brachypodium label graph dataset
+    otu_table_ITS_Soil_Fungi-cleaned-sorenson-0.760000.lg.....      otu_table_ITS_Soil_Fungi dataset
 
 
 REQUIREMENTS:
