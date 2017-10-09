@@ -9,8 +9,8 @@ CONTENTS:
 =====
 
     README ...................................................      This file
-    GRAMI_UNDIRECTED_SUBGRAPHS.jar............................      Jar complied version of Grami
-    grami ....................................................      script to run GraMi
+    parsemis.jar..............................................      Jar complied version of gSpan
+    gSpan ....................................................      script to run gSpan
     brachypodium-correlation-cutoff-0.98-parsed.lg............      brachypodium label graph dataset
     otu_table_ITS_Soil_Fungi-cleaned-sorenson-0.760000.lg.....      otu_table_ITS_Soil_Fungi dataset
 
@@ -23,7 +23,7 @@ Java JRE v1.6.0 or later
 INSTALLATION:
 =====
     - gSpan scpirt has 4 input parameters:
-        - inputfile
+        - input file
         - frequency threshold for subnetwork
         - number of nodes in subnetwork, used to restrict the search space
         - number of edges in subnetwork, used to restrict the search space
