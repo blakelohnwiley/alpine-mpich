@@ -1,9 +1,6 @@
-# Alpine MPICH
+# Alpine MPICH Frequent Subnetwork Mining
 
-Docker image of Alpine Linux with  [MPICH](http://www.mpich.org/) -- portable implementation of Message Passing Interface (MPI) standard. Designed for MPI program development and deployment.
-
-Provide solution for MPI Cluster Automation with Docker containers using either Docker Compose or Docker Swarm Mode.
-
+Docker was used as the platform to implement and test four frequent subnetwork mining algorithms: gSpan, Grami, ScaleMine, and DistGraph. This repository contains a modified version of this repository [https://github.com/NLKNguyen/alpine-mpich]. 
 
 Distributed MPI cluster setup instruction: [https://github.com/blakelohnwiley/alpine-mpich/tree/master/cluster](https://github.com/blakelohnwiley/alpine-mpich/tree/master/cluster)  
 * **[Single Host Orchestration](https://github.com/blakelohnwiley/alpine-mpich/wiki/Single-Host-Orchestration)**
