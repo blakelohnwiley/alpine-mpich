@@ -3,7 +3,7 @@
 Docker was used as the platform to implement and test four frequent subnetwork mining algorithms: gSpan, Grami, ScaleMine, and DistGraph. This repository contains a modified version of this repository [https://github.com/NLKNguyen/alpine-mpich]. 
 
 Distributed MPI cluster setup instruction: [https://github.com/blakelohnwiley/alpine-mpich/tree/master/cluster](https://github.com/blakelohnwiley/alpine-mpich/tree/master/cluster)  
-* **[Single Host Orchestration](https://github.com/blakelohnwiley/alpine-mpich/wiki/Single-Host-Orchestration)**
+Documentation: [wiki](https://github.com/blakelohnwiley/alpine-mpich/wiki/Single-Host-Orchestration)
 
 
 ----
