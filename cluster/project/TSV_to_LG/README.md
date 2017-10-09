@@ -29,7 +29,7 @@ input_dir : input directory for input file.
 input_filename : the input tsv file
 ```
 
-Example:
+##Example:
 ```
 java -jar ETL-Cytoscape.jar $PWD/ brachypodium-correlation-cutoff-0.98-parsed.tsv
 ```
