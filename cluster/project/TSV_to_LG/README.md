@@ -18,8 +18,6 @@ Subnetwork Mining algorithms: Gspan, Grami, ScaleMine, and DistGraph.
 ## Dependencies
 - Java 8 JRE or greater
 
-
-
 ##Running: ETL-Cytoscape.jar
 ```
 - java -jar ETL-Cytoscape.jar input_dir input_filename
@@ -37,5 +35,3 @@ Subnetwork Mining algorithms: Gspan, Grami, ScaleMine, and DistGraph.
 ##Output:
 - Dictionary text file that contains the numeric value associated with each vertex string name. 
 - The generated labeled graph format file. 
-
-
