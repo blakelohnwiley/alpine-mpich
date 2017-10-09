@@ -1,4 +1,4 @@
-FROM nlknguyen/alpine-mpich:onbuild
+FROM alpine-linux-3-4-on-build
 
 # # ------------------------------------------------------------
 # # Build MPI project
@@ -13,8 +13,21 @@ FROM nlknguyen/alpine-mpich:onbuild
 # the current working directory in this Docker image
 COPY project/ .
 
+USER root
+RUN chmod -R a+x $PWD && chown -R ${USER}:${USER} ${PWD}
+
 # Normal build command
 RUN mpicc -o mpi_hello_world mpi_hello_world.c
+
+# to compile  and build ScaleMine
+RUN cd /project/ScaleMine && ./compile.sh && chown mpi:mpi pfsm
+# to decompress test dataset
+RUN cd /project/ScaleMine/Datasets && tar -xvf patent_citations.lg.tar.gz
+
+# to compile and build DistGraph
+# add master/slave workers to hostsbash
+RUN cd /project/DistGraph && make
+
 
 # ####################
 # For Docker beginner:
