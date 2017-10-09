@@ -9,7 +9,7 @@ Subnetwork Mining algorithms: Gspan, Grami, ScaleMine, and DistGraph.
 
     README .................................................  This file
     ETL-Cytoscape.jar.......................................  java compiled files
-    SRC_*/ .................................................  Directory containing ETL_to_Cytospace.jar source files
+    SRC_*/ .................................................  Directory containing java source files
     brachypodium-correlation-cutoff-0.98-parsed.tsv.........  Tab seperated network file
     otu_table_ITS_Soil_Fungi-cleaned-sorenson-0.760000.tsv..  Tab seperated network file
     
