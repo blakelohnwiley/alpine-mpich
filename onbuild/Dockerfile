@@ -1,4 +1,4 @@
-FROM nlknguyen/alpine-mpich:latest
+FROM alpine-linux-3-4
 
 USER root
 
