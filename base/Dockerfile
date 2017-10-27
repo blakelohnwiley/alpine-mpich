@@ -5,7 +5,7 @@ MAINTAINER Blake Lohn-Wiley <blake.lohnwiley@gmail.com>
 ENV JAVA_VERSION=8 \
     JAVA_UPDATE=151 \
     JAVA_BUILD=12 \
-    JAVA_PATH=090f390dda5b47b9b721c7dfaa008135 \
+    JAVA_PATH=e758a0de34e24606bca991d704f6dcbf \
     JAVA_HOME="/usr/lib/jvm/default-jvm"
 
 RUN apk add --no-cache --virtual=build-dependencies wget ca-certificates unzip && \
