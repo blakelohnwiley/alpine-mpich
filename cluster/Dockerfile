@@ -21,8 +21,6 @@ RUN mpicc -o mpi_hello_world mpi_hello_world.c
 
 # to compile  and build ScaleMine
 RUN cd /project/ScaleMine && ./compile.sh && chown mpi:mpi pfsm
-# to decompress test dataset
-RUN cd /project/ScaleMine/Datasets && tar -xvf patent_citations.lg.tar.gz
 
 # to compile and build DistGraph
 # add master/slave workers to hostsbash
