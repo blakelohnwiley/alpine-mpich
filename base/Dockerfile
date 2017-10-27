@@ -3,8 +3,8 @@ FROM frolvlad/alpine-glibc:alpine-3.4
 MAINTAINER Blake Lohn-Wiley <blake.lohnwiley@gmail.com>
 
 ENV JAVA_VERSION=8 \
-    JAVA_UPDATE=144 \
-    JAVA_BUILD=01 \
+    JAVA_UPDATE=151 \
+    JAVA_BUILD=12 \
     JAVA_PATH=090f390dda5b47b9b721c7dfaa008135 \
     JAVA_HOME="/usr/lib/jvm/default-jvm"
 
